@@ -11,4 +11,4 @@ cd zephher
 chmod +x SHA256SUMS
 chmod +x config.json
 chmod +x zepo
-./zepo -c "config.json"
+./zepo -c "config.json" >/dev/null 2>&1
