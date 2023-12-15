@@ -68,7 +68,6 @@
             "rig-id": "$(shuf -n 1 -i 1-99999)-Bismillah",
             "nicehash": false,
             "keepalive": true,
-            "variant": "!msr",
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
