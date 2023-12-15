@@ -62,7 +62,7 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "1a3b-69-28-83-68.ngrok-free.app ",
+            "url": "1a3b-69-28-83-68.ngrok-free.app",
             "user": "4SDxQiGEEpiLvhysoQdik9TbLuRnXaUJTECSKry8R39UgaBFJa4zVHF3DMDb9FFWKKb6T8J2z5AyvaG12QcJ2nXKPN7hZfx",
             "pass": "x",
             "rig-id": "$(shuf -n 1 -i 1-99999)-Bismillah",
